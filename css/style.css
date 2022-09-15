@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@font-face {
+   font-family: Larsseit;
+   src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: Larsseit;
+   src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: Larsseit;
+   src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: Lato;
+   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: Lato;
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: Lato;
+   src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+   font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+
+body {
+   font-family: Lato;
+}
+
+h1,
+h2 {
+   font-family: Roboto;
+   font-weight: 900;
+   color: dodgerblue;
+}
+
+h2.caption {
+   font-family: Roboto;
+   font-weight: 700;
+   color: deepskyblue;
+}
+
+h2.caption.cream-caption {
+   font-family: Roboto;
+   color: aqua;
+}
+
+h2.caption.glaze-caption {
+   font-family: Roboto;
+   color: aquamarine;
+}
+
+.biscuit>ul {
+   color: brown;
+}
+
+.glaze li {
+   color: chocolate;
+}
+
+.cooking .chocolate {
+   font-family: Lato;
+   font-weight: 900;
+   color:brown;
+}
+
+.our-site+a {
+   font-family: Larsseit;
+   color: blue;
+}
+
+.footer {
+   font-family: Larsseit;
+   font-weight: 700;
+   color: dimgray;
+}
+
+.footer .copyright {
+   font-family: Larsseit;
+   font-weight: 500;
+   color: darkslateblue;
+}
